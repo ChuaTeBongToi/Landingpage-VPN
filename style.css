@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+#logo-ctn {
+    display: flex;
+    margin-right: 150px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#logo-ctn svg {
+    display: flex;
+    cursor: pointer;
+    object-fit: contain;
+}
+
+#menu {
+    display: flex;
+    margin-right: 350px;
+}
+
+#brand {
+    cursor: pointer;
+    margin-left: 10px;
+    color: var(--normal, #151515);
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#VPN {
+    cursor: pointer;
+    color: var(--normal-1, #101010);
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.menu-item {
+    cursor: pointer;
+    margin-right: 70px;
+    color: var(--gray, #2B2B2B);
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#sign-in-ctn {
+    margin-right: 15px;
+    display: flex;
+    width: 101px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#sign-in-ctn a {
+    color: var(--gray, #2B2B2B);
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#sign-up-ctn {
+    display: flex;
+    width: 101px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    border: 2px solid var(--red, #F53838);
+}
+
+#sign-up-ctn a {
+    color: var(--red, #F53838);
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#hero {
+    display: flex;
+    margin-top: 100px;
+}
+
+#hero img {
+    display: flex;
+    object-fit: contain;
+    margin-left: 30px;
+}
+
+#hero-ctn {
+    display: flex;
+    flex-direction: column;
+}
+
+#hero-ctn h1 {
+    width: 506px;
+    color: var(--gray, #2B2B2B);
+    font-family: Rubik;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#LaslesVPN {
+    color: var(--gray, #2B2B2B);
+    font-family: Rubik;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#hero-ctn p {
+    margin-top: 50px;
+    width: 553px;
+    height: 36px;
+    color: #5A5A5A;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn {
+    margin-top: 50px;
+    display: flex;
+    cursor: pointer;
+    width: 193px;
+    height: 54px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: var(--red, #F53838);
+    border: 0;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#frame {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 7px 13px 35px 0px rgba(0, 0, 0, 0.09);
+}
+
+.svg-ctn {
+    margin-right: 15px;
+    display: flex;
+    width: 37px;
+    height: 37px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 500px;
+    background: var(--red-2, rgba(245, 56, 56, 0.10));
+}
+
+.text-ctn h1 {
+    color: var(--gray, #2B2B2B);
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.text-ctn p {
+    color: var(--very-gray, #646464);
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#users {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+#location {
+    display: flex;
+}
+
+#servers {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+hr {
+    width: 1px;
+    height: 40px;
+    background-color: red;
+    color: red;
+}

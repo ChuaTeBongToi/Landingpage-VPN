@@ -795,7 +795,13 @@ img {
     img {
         width: 300px;
     }
-    
+
+    body {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
     nav {
         display: flex;
         flex-direction: column;
@@ -808,6 +814,7 @@ img {
     #sign-in-ctn {
         display: none;
     }
+
     #sign-up-ctn {
         display: none;
     }
@@ -821,11 +828,108 @@ img {
     }
 
     #hero-ctn h1 {
-        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        color: var(--gray, #2B2B2B);
+        text-align: center;
+        font-family: Rubik;
         font-size: 32.143px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 
     #hero-ctn p {
+        width: 355.5px;
+        height: 23.143px;
+    }
+
+    #subrice {
+        display: none;
+    }
+
+    .btn {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #frame {
+        gap: 10px
+    }
+
+    #frame2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #frame2-ctn {
+        text-align: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #frame3-title p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 278px;
+        height: 53px;
+    }
+
+    #customers-title p {
+        width: 313px;
+        height: 43.114px;
+    }
+
+    #end {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #contact {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #social {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .list-ctn {
+        margin-top: 20px;
+        margin-bottom: 100px;
+        display: flex;
+        gap: 30px;
+        text-align: left;
+    }
+
+    .list {
+        margin: 0 0 0 0;
+    }
+
+    .infor img {
+        align-items: none;
+        text-align: none;
+        justify-content: none;
         width: 100px;
     }
-  }
+    
+    #comments li {
+        display: none;
+    }
+
+    #frame68 {
+        display: none;
+    }
+}

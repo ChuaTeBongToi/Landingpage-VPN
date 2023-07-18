@@ -863,6 +863,7 @@ img {
     }
 
     #subrice-ctn {
+        margin-top: 20px;
         margin-left: 10px;
         margin-right: 10px;
         text-align: center;
@@ -964,11 +965,17 @@ img {
         width: 100px;
     }
 
-    #comments li {
-        display: none;
+    #customers {
+        margin-bottom: 0px;
     }
 
     #frame68 {
-        display: none;
+        gap: 0px;
+        margin-bottom: 0px;
+        width: fit-content;
+    }
+
+    #frame68 img {
+        width: 100px;
     }
 }
